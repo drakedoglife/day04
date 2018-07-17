@@ -1,0 +1,60 @@
+h1 {
+  font-family: Monospace;
+  font-style: Italic;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 5px 5px 5px blue;
+}
+
+body {
+  /*background-color: blue;*/
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1531813646207&di=f355130bbc41dcc37caeb5227a8cb92e&imgtype=0&src=http%3A%2F%2Fpic.97uimg.com%2Fback_pic%2F20%2F15%2F10%2F13%2F63572281a3fcf24cb474da4d502eb577.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+#section {
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: black;
+  text-decoration: line-through;
+}
+
+a:active {
+  color: blue;
+  text-decoration: overline;
+}
+
+#footer {
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+}
+
+ul {
+  list-style: inside square url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1531815111014&di=38553f1a934f923a4d4d80f387386d74&imgtype=0&src=http%3A%2F%2Fwww.cnlogo8.com%2Fupimg%2F2014%2Fykvr2iisi5f.png");
+}
+
+#experience {
+  text-align: center;
+  border-style: solid;
+  border-width: 10px 5px 5px 5px;
+  border-color: orange;
+}
+
+#table table, th, td{
+  border: 1px solid blue;
+  border-collapse:collapse;
+}
